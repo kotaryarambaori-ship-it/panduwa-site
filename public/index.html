@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#087f6e">
+
+  <title>ग्राम पंचायत पंडुवा | राजू प्रसाद प्रधान</title>
+
+  <meta name="description" content="ग्राम पंचायत पंडुवा, बारा, प्रयागराज की आधिकारिक पंचायत वेबसाइट। विकास कार्य, सड़क, आवास, नाली, योजनाएं, समाचार और शिकायत सेवाएं।">
+
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-icon">🏡</div>
+        <div>
+          <h1>ग्राम पंचायत पंडुवा</h1>
+          <p>बारा, प्रयागराज, उत्तर प्रदेश</p>
+        </div>
+      </div>
+
+      <a href="/login" class="login-link">लॉगिन</a>
+    </div>
+  </header>
+
+  <nav class="main-nav" aria-label="मुख्य मेन्यू">
+    <a href="/">होम</a>
+    <a href="/about">हमारे बारे में</a>
+    <a href="/services">सेवाएं</a>
+    <a href="/vikas-karya">विकास कार्य</a>
+    <a href="/news">समाचार</a>
+    <a href="/notices">सूचनाएं</a>
+    <a href="/gallery">गैलरी</a>
+    <a href="/complaint">शिकायत</a>
+    <a href="/track-complaint">शिकायत ट्रैक करें</a>
+    <a href="/contact">संपर्क</a>
+  </nav>
+
+  <main id="app">
+    <section class="loading-screen">
+      <div class="loading-icon">🏡</div>
+      <h2>ग्राम पंचायत पंडुवा में आपका स्वागत है</h2>
+      <p>वेबसाइट लोड हो रही है...</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <h3>ग्राम पंचायत पंडुवा</h3>
+    <p>बारा, प्रयागराज, उत्तर प्रदेश</p>
+    <p>प्रधान: राजू प्रसाद प्रधान</p>
+
+    <div class="footer-links">
+      <a href="/about">हमारे बारे में</a>
+      <a href="/services">सेवाएं</a>
+      <a href="/complaint">शिकायत</a>
+      <a href="/contact">संपर्क</a>
+      <a href="/admin">एडमिन</a>
+    </div>
+
+    <p>© <span id="year"></span> ग्राम पंचायत पंडुवा</p>
+    <p>सभी अधिकार सुरक्षित</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+
+  <script src="/app.js" defer></script>
+
+</body>
+</html>
